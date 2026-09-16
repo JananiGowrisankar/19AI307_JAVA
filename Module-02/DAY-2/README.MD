@@ -18,54 +18,40 @@ b)	Call the `display(8, 9)` method on the `ad` object
 7.	End
 
 
-
-
-
-
 ## PROGRAM:
  ```
 /*
 Program to implement a access modifiers using Java
-Developed by: Janani G
-RegisterNumber: 212224100022 
-class addition {
-    private int num1;
-    private int num2;
-
-    private int add() {
-        return num1 + num2;
-    }
-
-    public void display(int n1, int n2) {
-        num1 = n1;
-        num2 = n2;
-
-        System.out.println(add());
-    }
-}
-
-public class Main {
-    public static void main(String[] args) {
-        addition ad = new addition();
-        ad.display(8, 9);
-    }
-}
+Developed by: MOHAMMED SAFI F
+RegisterNumber: 212224060156
 */
 ```
 
 ## Sourcecode.java:
-
-
-
-
-
+```
+public class A
+{ 
+    private void display() 
+    { 
+        int a=8,b=9;
+        System.out.println(a+b); 
+    }
+    public static void main(String args[])
+    {
+        A obj= new A();
+        obj.display();
+    }
+}
+```
 
 
 ## OUTPUT:
+```
+Expected    Got 
 
-
+17          17
+```
 
 ## RESULT:
+
 Thus the java program to display the addition number using private modifiers only was executed successfully.
-
-
