@@ -42,7 +42,7 @@ class Main {
 ```
 
 ## Sourcecode.java:
-
+```
 class Student {
     String name;
     String address;
@@ -64,7 +64,7 @@ public class Sourcecode {
 
 
 
-
+```
 
 ## OUTPUT:
 
